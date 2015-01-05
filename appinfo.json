@@ -1,0 +1,21 @@
+{
+    "appKeys": {
+        "message": 0
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "ltkeks@0x2a.net",
+    "longName": "Steuerung",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "shortName": "Steuerung",
+    "uuid": "791e32c4-e4bc-45bb-b62a-d3da2dc33658",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
