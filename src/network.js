@@ -1,25 +1,12 @@
  var xmlHttp = null;
 
-/*KEY Werte:
-1-up
-2-long up
-3-select
-4-long select
-5-down
-6-long down
-*/
+Pebble.addEventListener("ready", function(e) {});
 
-Pebble.addEventListener("ready",
-							function(e) {
-							});
-
-
-
-Pebble.addEventListener("appmessage",
-							function(e) {
+Pebble.addEventListener("appmessage", function(e) {
                 
 switch(e.payload.message) {
-   case 1:
+   
+    case 1:
         xmlHttp = new XMLHttpRequest();
         xmlHttp.open( "GET", "http://192.168.178.31/?run=lichtan", false );
         xmlHttp.send( null );
@@ -53,6 +40,7 @@ switch(e.payload.message) {
         console.log('Case 6');
         break;
     default:
+        console.log('Case Default / Error');
         
 } 
 });
