@@ -12,7 +12,7 @@
         "media": [
             {
                 "file": "data/import_cloudpebble.zip",
-                "name": "RAW_IMPORT",
+                "name": "IMPORT",
                 "type": "raw"
             }
         ]

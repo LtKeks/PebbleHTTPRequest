@@ -1,18 +1,15 @@
 #include <pebble.h>
   
-  
-
-  
 static Window *s_main_window;
 static TextLayer *s_time_layer;
 
-// Key
+//Key IDs
 
 enum {
   KEY_MESSAGE = 0,
 };
 
-// AppMessage send function. Send a key with a value to the JS part. 
+//AppMessage send function. Send a key with a value to the JS part. 
 
 void send_int(uint8_t key, uint8_t cmd)
 {
