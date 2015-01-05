@@ -9,7 +9,13 @@
     "longName": "Control",
     "projectType": "native",
     "resources": {
-        "media": []
+        "media": [
+            {
+                "file": "data/import_cloudpebble.zip",
+                "name": "RAW_IMPORT",
+                "type": "raw"
+            }
+        ]
     },
     "shortName": "Control",
     "uuid": "791e32c4-e4bc-45bb-b62a-d3da2dc33658",
