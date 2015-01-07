@@ -37,7 +37,7 @@ Call the send function with an int value for every button.
 */
 
 static void select_click_handler(ClickRecognizerRef recognizer, void *context) {
-  send_int(0, 3);
+  send_int(0, 3);  
 }
 
 static void up_click_handler(ClickRecognizerRef recognizer, void *context) {

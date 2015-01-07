@@ -9,16 +9,10 @@
     "longName": "Control",
     "projectType": "native",
     "resources": {
-        "media": [
-            {
-                "file": "data/import_cloudpebble.zip",
-                "name": "IMPORT",
-                "type": "raw"
-            }
-        ]
+        "media": []
     },
     "shortName": "Control",
-    "uuid": "791e32c4-e4bc-45bb-b62a-d3da2dc33658",
+    "uuid": "791e32c4-e4bc-45bb-b62a-d3da2dc33458",
     "versionCode": 1,
     "versionLabel": "1.0",
     "watchapp": {
